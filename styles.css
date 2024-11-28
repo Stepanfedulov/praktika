@@ -1548,7 +1548,9 @@ object-fit: contain;
         } 
     }
     @media screen and (max-width:477px){
-
+        html{
+            overflow-x: hidden;
+        }
         .alumni-sans{
             font-family: "Alumni Sans", sans-serif !important;
             font-optical-sizing: auto;
@@ -1609,7 +1611,7 @@ object-fit: contain;
         }
         .carousel-caption{
             background-color: rgba(0, 0, 0, 0.301);
-            width: 100vw !important;
+            width: 0vw !important;
             margin-left: -37.657vw;
             color: white !important;
             margin-bottom: -4.184vw !important;
@@ -1724,7 +1726,7 @@ object-fit: contain;
         .headerleft{
             display: flex;
             flex-direction: column;
-            width: 100vw;
+            width: 90vw;
             justify-content: center;
             margin-left: auto;
             margin-right: auto;
@@ -1796,7 +1798,7 @@ object-fit: contain;
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            width: 100vw;
+            width: 90vw;
             margin-left: auto;
             margin-right: auto;
         }
@@ -1856,6 +1858,7 @@ object-fit: contain;
             margin-left: 4.184vw;
   
         }
+
         .workp{
             font-size: 3.347vw;
             width: 34.728vw;
@@ -1866,8 +1869,8 @@ object-fit: contain;
             margin-left: 2.092vw;
         }
         .workingimg{
-            height: 55.649vw;
-            width: 56.276vw;
+            height: 50.649vw;
+            width: 50.276vw;
             object-fit: contain;
         }
         .documents{
@@ -1877,7 +1880,7 @@ object-fit: contain;
         }
         .doccont{
             margin-top: 6.276vw;
-            width: 100vw;
+            width: 80vw;
             margin-left: auto;
             margin-right: auto;
         }
@@ -2035,14 +2038,14 @@ object-fit: contain;
         .footercenter{
             display: none;
             flex-direction: row;
-            width: 100vw;
+            width: 0vw;
         }
         .footernav{
             margin-top: 6.276vw;
             justify-content: space-between;
             display: flex;
             flex-direction: row !important;
-            width: 100vw;
+            width: 0vw;
         }
         .socnet,.totop{
         width: 9.414vw;
