@@ -10,6 +10,7 @@
     margin: 0;
     font-family: "Inter", sans-serif !important;
   }
+
 .d-block{
     width: 1200px;
     height: 537px;
@@ -442,6 +443,9 @@ padding-top: 30px;
     background-color: #1998D4;
     color: white;
     margin-bottom: -16px;
+}
+.footerlink{
+    font-size: 20px !important;
 }
 .footercont{
     display: flex;
