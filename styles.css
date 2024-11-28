@@ -337,6 +337,9 @@ height: 520px;
     padding-top: 20px;
     margin-bottom: 10px;
 }
+.docslink{
+    font-size: 16px;
+}
 .inputcont{
     margin-left: auto;
     margin-right: auto;
@@ -1017,7 +1020,7 @@ object-fit: contain;
         margin-left: auto;
         margin-top: -40px;
     }
-
+}
     @media screen and (max-width:478px){
 
         .alumni-sans{
@@ -1542,6 +1545,534 @@ object-fit: contain;
             margin-right: auto;
             margin-left: auto;
             margin-top: -5px;
-        }   
-}
+        } 
+    }
+    @media screen and (max-width:477px){
+
+        .alumni-sans{
+            font-family: "Alumni Sans", sans-serif !important;
+            font-optical-sizing: auto;
+            font-weight:600;
+            font-style: normal;
+            font-size:8.368vw !important ;
+            line-height: 6.276vw !important;
+         }
+         * {
+            margin: 0;
+            font-family: "Inter", sans-serif !important;
+          }
+        .d-block{
+            width: 100vw;
+            height: 112.343vw;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        .carousel{
+            width: 100vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .carouselcont{
+            width: 100%;
+        }
+        .carousel-control-prev{
+            height: 8.787vw;
+            width: 8.787vw !important; 
+            border-radius: 6.276vw !important;
+            background-color: rgb(255, 255, 255) !important;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 4.184vw;
+        }
+        .carousel-control-prev-icon{
+            width: 8.787vw;
+            color: black !important;
+        }
+        .container-fluid{
+            justify-content: initial !important;
+            margin-top: -2.72vw !important;
+            margin-bottom: 0px !important;
+        }
+        .carousel-control-next{
+            height: 8.787vw;
+            width: 8.787vw !important; 
+            border-radius: 6.276vw !important;
+            background-color: rgb(255, 255, 255) !important;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-right: 4.184vw;
+        }
+        .carousel-control-next-icon{
+            width: 8.787vw;
+            color: black !important;
+        }
+        .carousel-caption{
+            background-color: rgba(0, 0, 0, 0.301);
+            width: 100vw !important;
+            margin-left: -37.657vw;
+            color: white !important;
+            margin-bottom: -4.184vw !important;
+        }
+        .nav-link{
+            font-size: 5.021vw !important;
+            color: white !important;
+        }
+        .navbg{
+            background-color: #1998D4;
+        }
+        .navbar-nav{
+            border-radius: 6.276vw;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 6.276vw !important;
+            background-color: #1998D4;
+        }
+        .navbar{
+            height: 16.946vw;
+        }
+        .navbar-brand{
+            text-align: center;
+            color: white !important;
+        }
+        .navbar-toggler{
+            width: 10.251vw !important;
+            height: 10.251vw !important;
+            margin-top: auto !important;
+            margin-bottom: 5.23vw !important;
+            margin-right: 6.276vw;
+            margin-left: auto;
+            border: none !important;
+        }
+        .navbar-toggler:active,.navbar-toggler:focus{
+            border: none !important;
+            outline: none !important;
+            color: rgba(255, 255, 255, 0) !important;
+        }
+        .navbar-toggler-icon{
+            width: 10.251vw !important;
+            height: 10.251vw !important;
+            object-fit: cover;
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+        }
+        .sliderblock{
+            position: relative;
+            z-index: 10;
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 72.176vw;
+            height: 87.866vw;
+            margin-left: 13.808vw;
+            margin-top: -100.418vw;
+            margin-bottom:12.552vw;
+        }
+        .sliderh{
+            margin-top: 0px !important;
+            margin-bottom: 2.092vw !important;
+            font-size: 4.184vw;
+            width: 66.946vw;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-weight: 500;
+        }
+        .sliderp{
+         font-size: 4.184vw;
+         width: 63.808vw;
+         margin-left: auto;
+         margin-right: auto;
+         line-height: 5.23vw;
+        }
+        .logoimg{
+            width: 15.69vw;
+            height: 15.69vw;
+            margin-bottom: 0.523vw;
+            margin-left: -1.046vw;
+        }
+        .headercont{
+            display: flex;
+            flex-direction: column;
+            height: 125.523vw;
+        }
+        .contactcont{
+            background-color:rgba(0, 0, 0, 0.7);    
+            width: 76.987vw;
+            height: 6.904vw;
+            display: flex;
+            flex-direction: row;
+            margin-top: 4.603vw;
+            margin-left: auto;
+            margin-right: 0px;
+        }
+        .contactpleft{
+            margin-left: 1.046vw;
+            margin-right: auto;
+            margin-top: 1.046vw;
+        }
+        .contactpright{
+            margin-left:auto;
+            margin-right:2.092vw;
+            margin-top: 1.046vw;
+        }
+        .contactpleft, .contactpright{
+            color: white;
+            font-size: 3.347vw;
+        }
+        .headercontentcont{
+            display: flex;
+            flex-direction: column;
+        }
+        .headerleft{
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .headerbigp{
+            font-size: 4.184vw;
+            text-align: center;
+            font-weight: 600;
+            margin-top: 2.092vw;
+        }
+        .headerp{
+            margin-top: 4.184vw;
+            font-size: 8.368vw;
+            text-align: center;
+            display: none;
+        }
+        .headermobile{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex !important;
+        }
+        .headerpmob{
+            margin-top: 4.184vw;
+            font-size: 4.184vw;
+            text-align: center;
+            width: 96.653vw;
+        }
+        .headerright{
+    
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .headerrightimg{
+            object-fit: cover;
+            height: 70.921vw;
+            width: 94.561vw;
+        }
+        .aboutuscont{
+        background-color: rgba(240, 240, 240, 1);
+        height: 88.912vw;
+        }
+        .aboutuspcont{
+            padding-top:4.184vw ;
+        }
+        .ph{
+            text-align: center;
+            font-size: 4.184vw;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 400;
+        }
+        .aboutusp{
+            text-align: center;
+            font-size: 3.347vw;
+            margin-left: auto;
+            margin-right: auto;
+            width: 92.678vw;
+        }
+        .aboutusminih{
+            width: 58.577vw;
+            font-size: 3.347vw;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-top: 4.184vw;
+            margin-bottom: 6.276vw;
+        }
+        .aboutusservicesup{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 100vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .upservice{
+            display: flex;
+            flex-direction: row;
+            width: 70.711vw;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .servicep{
+            font-size: 3.347vw;
+            margin-left: 2.092vw;
+            margin-top: -2.092vw;
+        }
+        .serviceimgcont{
+            object-fit: contain;
+        }
+        .serviceimg{
+            object-fit: contain;
+            width: 8.787vw;
+            height: 6.695vw;
+        }
+        .aboutusservicesdown{
+            margin-top: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 70.711vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sliderconth{
+            margin-top: 6.276vw;
+            margin-bottom: 6.276vw;
+        }
+        .workinghourscont{
+            margin-top: 20.921vw;
+            background-color:rgba(240, 240, 240, 1);
+            height: 165.272vw;
+        }
+        .workh{
+            padding-top: 6.276vw;
+        }
+        .workingcont{
+            margin-bottom: 12.552vw;
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .workleft{
+            width: 34.728vw;
+            margin-top: 4.184vw;
+            margin-left: 4.184vw;
+  
+        }
+        .workp{
+            font-size: 3.347vw;
+            width: 34.728vw;
+            line-height: 170%;
+
+        }
+        .workright{
+            margin-left: 2.092vw;
+        }
+        .workingimg{
+            height: 55.649vw;
+            width: 56.276vw;
+            object-fit: contain;
+        }
+        .documents{
+            width: 70.502vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .doccont{
+            margin-top: 6.276vw;
+            width: 100vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .formcont{
+            padding-top: 6.276vw;
+            height: 188.285vw;
+        }
+        .docsh{
+            font-size: 3.347vw;
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+        .pformtext{
+            text-align: center;
+            width:88.285vw;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 3.347vw;
+            margin-bottom: 8.368vw;
+        }
+        .form{
+            background-color: #1998D4;
+            width: 86.192vw;
+            height: 126.569vw;
+            border-radius: 5.23vw;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            font-size: 4.184vw;
+        }
+        .formheader{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 6.695vw;
+            padding-top: 4.184vw;
+            margin-bottom: 2.092vw;
+        }
+        .inputcont{
+            margin-left: auto;
+            margin-right: auto;
+            width: 69.874vw;
+            height: 15.272vw;
+            margin-bottom: 4.184vw;
+        }
+        .inputname{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            font-weight: 300;
+        }
+        .input{
+            width: 69.874vw;
+            border: 0;
+            border-radius: 6.276vw;
+            height: 9.414vw;
+            padding-left: 4.184vw;
+        }
+        .input::placeholder{
+            color: rgb(0, 0, 0);
+        }
+        .inputselect{
+            width: 69.874vw;
+            border: 0;
+            border-radius: 6.276vw;
+            height: 9.414vw;
+            padding-left: 4.184vw;
+        }
+        .ghost{
+            color: rgba(165, 165, 165, 1);
+        }
+        .checkboxcont{
+            display: flex;
+            flex-direction: row;
+            width: 60.552vw;
+            font-size: 3.347vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .checkboxleft{
+            margin-right: 2.092vw;
+        }
+        .submit{
+            display: flex;
+            width: 36.402vw;
+            text-align: center;
+            height: 9.414vw;
+            border-radius: 6.276vw;
+            border: none;
+            color: #1998D4;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:2.092vw;
+        }
+        .feedbackcont{
+        background-color: rgba(240, 240, 240, 1);
+        height: 387.029vw;
+        padding-top: 6.276vw;
+        }
+        .feedbacks{
+            margin-top: 8.368vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .feedbackcard{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            width: 83.682vw;
+            margin-right: auto;
+        }
+        .feedbacktop{
+            width: 83.682vw;
+            display: flex;
+        }
+        .feedbackimg{
+            display: flex;
+            object-fit: cover;
+            border-radius: 150px;
+            width: 31.381vw;
+            height: 31.381vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .feedbackname{
+            margin-top: 2.092vw;
+            text-align: center;
+            font-size: 5.021vw;
+        }
+        .feedbacktext{
+            font-size: 3.347vw;
+            background-color: white;
+            border-radius: 6.276vw;
+            padding-left: 6.276vw;
+            padding-right: 6.276vw;
+            padding-bottom: 4.184vw;
+            padding-top: 2.092vw;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            background-color: #1998D4;
+            color: white;
+            margin-bottom: -3.347vw;
+        }
+        .footercont{
+            display: flex;
+            flex-direction: row;
+        }
+        .contacts{
+            font-size: 3.347vw;
+            margin-left: 6.276vw;
+            margin-top: 3.138vw;
+        }
+        .footercenter{
+            display: none;
+            flex-direction: row;
+            width: 100vw;
+        }
+        .footernav{
+            margin-top: 6.276vw;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: row !important;
+            width: 100vw;
+        }
+        .socnet,.totop{
+        width: 9.414vw;
+        height: 9.414vw;
+        object-fit: contain;
+        }
+        .footerright{
+            margin-right: 3.138vw;
+            margin-left: auto;
+        }
+        .totopcont{
+            margin-top: 3.138vw;
+            width: 9.414vw;
+            height: 9.414vw;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 3.138vw;
+        }
+        .socnets{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 34.519vw;
+        }
+        .copyrightcont{
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: -1.046vw;
+        }       
+        .docslink{
+            font-size: 3.347vw !important;
+        }
 }
